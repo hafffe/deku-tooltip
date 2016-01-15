@@ -27,6 +27,28 @@ export default {render};
 ```
 
 
+## API
+
+### class
+
+Type: `string`
+
+Class on the container element.
+
+### component
+
+Type: `string`  
+Default: `span`
+
+HTML tag on the container element.
+
+### content
+
+Type: `string`
+
+Content that should appear in the tooltip.
+
+
 ## License
 
 MIT © [Kevin Martensson](http://github.com/kevva)
