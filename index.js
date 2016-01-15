@@ -7,9 +7,6 @@ const propTypes = {
 	children: {
 		type: 'array'
 	},
-	class: {
-		type: 'string'
-	},
 	component: {
 		type: 'string'
 	},
@@ -32,7 +29,7 @@ const render = ({props, state}, setState) => {
 		onMouseOut: () => setState({open: false})
 	}), [
 		...children,
-		<div class={['Tooltip', props.class]} style={style}>{content}</div>
+		<div class='Tooltip' style={style}>{content}</div>
 	]);
 };
 

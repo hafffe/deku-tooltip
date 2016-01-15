@@ -5,7 +5,7 @@ import Tooltip from '../';
 
 const render = () => {
 	return (
-		<Tooltip component='p' content='Hello world!'>
+		<Tooltip class='TooltipTrigger' content='Hello world!'>
 			Hover me!
 		</Tooltip>
 	);

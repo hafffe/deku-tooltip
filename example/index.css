@@ -3,7 +3,7 @@ body {
 	font-family: sans-serif;
 }
 
-p {
+.TooltipTrigger {
 	position: relative;
 	display: inline-block;
 }
