@@ -1,0 +1,23 @@
+body {
+	padding: 40px;
+	font-family: sans-serif;
+}
+
+.TooltipTrigger {
+	position: relative;
+	display: inline-block;
+}
+
+.Tooltip {
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	max-width: 200px;
+	padding: 4px 8px;
+	margin-bottom: 5px;
+	text-align: center;
+	white-space: nowrap;
+	color: #fff;
+	background-color: #000;
+	transform: translate(-50%);
+}
